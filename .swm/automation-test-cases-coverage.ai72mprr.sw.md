@@ -1,11 +1,44 @@
 ---
-title: 'Automation Test Cases covereged  '
+title: 'Automation Test Cases coverage  '
 ---
 &nbsp;
 
+| Test File Name                       | Result                   | Priority | Failed/Key Test Cases                                                                                                                                  |   |
+| ------------------------------------ | ------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | - |
+| add-repo-flow.spec.ts                | pass 1/1                 | High     |                                                                                                                                                        |   |
+| auth-page.spec                       | pass 10/10               | High     |                                                                                                                                                        |   |
+| autosync-flow.spec.ts                | pass 2/2                 | Medium   |                                                                                                                                                        |   |
+| backwards-compatibility-flow.spec.ts | pass 1/1                 | Low      |                                                                                                                                                        |   |
+| basic-flow.spec.ts                   | pass 1/1                 | Medium   |                                                                                                                                                        |   |
+| commit-file.spec.ts                  | **pass 2/2**             | High     | fixed&nbsp;                                                                                                                                            |   |
+| cross-repo-doc.spec.ts               | pass 2/2                 | Medium   |                                                                                                                                                        |   |
+| demo.spec.ts                         | pass 2/2                 | Low      |                                                                                                                                                        |   |
+| discard-draft.spec.ts                | pass 5/5                 | Low      |                                                                                                                                                        |   |
+| doc.spec.ts                          | fail 1/5                 | High     | test fail:&nbsp;<br>1. create a doc and verify we can commit and load it properly                                                                      |   |
+| dummy-repo.spec.ts                   | **fail 3/4**             | High     | Env issue "Faild to create workspace"&nbsp;<br>                                                                                                        |   |
+| editor-hyper-links.spec.ts           | pass 1/4(2 skipped)      | Medium   | issues:<br>1. with the "toBeInViewport" commond ( need to find other why to test it)&nbsp;<br>2. seems the data links are damaged&nbsp;                |   |
+| editor-sidebar.spec.ts               | **pass 2/2**             | Medium   | known issue - issue with the mentions options&nbsp;&nbsp;                                                                                              |   |
+| editor-swimmlinks.spec.ts            | pass 1/1                 | Medium   |                                                                                                                                                        |   |
+| folders.spec.ts                      | **fail 2/6**             | High     | Flakey:&nbsp;<br>playwright performance (too fast)&nbsp;                                                                                               |   |
+| import-md.spec.ts                    | pass 2/2                 | Medium   |                                                                                                                                                        |   |
+| mermaid.spec.ts                      | pass 1/1                 | Low      |                                                                                                                                                        |   |
+| path.spec.ts                         | pass 1/1                 | Medium   |                                                                                                                                                        |   |
+| paywall.spec.ts                      | **fail 2/2**             | High     | Env issue "Faild to create workspace"                                                                                                                  |   |
+| performance.spec.ts                  | **fail 1/3 (4 skipped)** | High     | Flakey&nbsp;<br>test : "switch branch from repo page"                                                                                                  |   |
+| pr-to-doc.spec.ts                    | **fail2/4**              | High     | Flakey :&nbsp;<br>playwright performance (too fast)&nbsp;<br>tests :<br>1.create doc from PR and save<br>2.create doc from PR by PR number and discard |   |
+| sidebar.spec.ts                      | pass 6/6                 | Medium   |                                                                                                                                                        |   |
+| snippet-studio.spec.ts               | **fail 1/7**             | High     | Flakey:&nbsp;<br>Test "should select two snippets from the same file"                                                                                  |   |
+| status-tab.spec.ts                   | pass 1/1                 | Low      |                                                                                                                                                        |   |
+| tags.spec.ts                         | **fail 1/3**             | Medium   | Flakey<br>Tests :&nbsp;<br>1. Multiple tags flow<br>2.Tags flow inside doc                                                                             |   |
+| templates.spec.ts                    | pass 2/2                 | Low      |                                                                                                                                                        |   |
+| trial.spec.ts                        | **fail 1/1**             | High     | Env issue "Faild to create workspace"                                                                                                                  |   |
+| workspace.spec.ts                    | **fail 1/2**             | High     | Env issue "Faild to create workspace"                                                                                                                  |   |
+
 # Test file name: "add-repo-flow.spec.ts"
 
-passed/ falls :   pass&nbsp;
+&nbsp;
+
+### pass/ fail :   pass
 
 ### **Edge Cases and Suggestions**
 
@@ -27,6 +60,8 @@ passed/ falls :   pass&nbsp;
 &nbsp;
 
 # Test file name: "auth-page.spec"
+
+### pass/ fail:   pass 10/10&nbsp;
 
 ### **Edge Cases and Suggestions**
 
@@ -90,6 +125,8 @@ Suggested clearer titles for each test:
 
 # Test file name: "autosync-flow.spec.ts"
 
+### pass/ fail:   pass 2/2&nbsp;
+
 ### **Edge Cases and Suggestions**
 
 ### Test Case Coverage Table
@@ -105,7 +142,7 @@ Suggested clearer titles for each test:
 
 # Test file name: "backwards-compatibility-flow.spec.ts"
 
-passed/ falls :&nbsp;&nbsp;&nbsp;
+### pass/ fail:   pass 1/1
 
 ### **Edge Cases and Suggestions**
 
@@ -119,7 +156,7 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "basic-flow.spec.ts"
 
-passed/ falls :&nbsp;&nbsp;&nbsp;
+### pass/ fail : pass 1/1
 
 ### **Edge Cases and Suggestions**
 
@@ -151,7 +188,7 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "commit-file.spec.ts"
 
-passed/ falls :&nbsp;&nbsp;&nbsp;
+### pass/ fail :   1/2 faills
 
 ### **Edge Cases and Suggestions**
 
@@ -189,7 +226,7 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "cross-repo-doc.spec.ts"
 
-passed/ falls :&nbsp;&nbsp;&nbsp;
+### pass/ fail:  pass 2/2
 
 ### **Edge Cases and Suggestions**
 
@@ -227,7 +264,7 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "demo.spec.ts"
 
-passed/ falls :&nbsp;&nbsp;&nbsp;
+### pass/ fail :   pass 2/2
 
 ### **Edge Cases and Suggestions**
 
@@ -279,7 +316,9 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 &nbsp;
 
-# Test file name: "discard-drafts.spec"
+# Test file name: "discard-draft.spec.ts
+
+pass/fail: pass 5/5
 
 ### **Edge Cases and Suggestions**
 
@@ -322,6 +361,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 &nbsp;
 
 # Test file name: "doc.spec.ts"
+
+### pass/fail: fail 1/4
 
 ### **Edge Cases and Suggestions**
 
@@ -367,7 +408,7 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "dummy-repo.spec.ts"
 
-passed/ falls :&nbsp;&nbsp;&nbsp;
+passed/ falls :   faill 3/4
 
 ### **Edge Cases and Suggestions**
 
@@ -421,6 +462,10 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "editor-hyper-links.spec.ts"
 
+passed/ falls :   pass 1/1&nbsp;
+
+4 in skip&nbsp;
+
 ### **Edge Cases and Suggestions**
 
 - **Negative case:** Copy anchor on doc with no headings/snippets (should not error)
@@ -467,6 +512,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "editor-sidebar.spec"
 
+pass/ faill : fail 1/2
+
 ### **Edge Cases and Suggestions**
 
 - **Edge/Negative:**
@@ -503,6 +550,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "editor-swimmlinks.spec.ts"
 
+### pass/faill : pass&nbsp;
+
 ### **Edge Cases and Suggestions**
 
 - **Negative/Edge:**
@@ -538,6 +587,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 &nbsp;
 
 # Test file name: "folders.spec.ts"
+
+### pass/fail : fail 2/6
 
 ### **Edge Cases and Suggestions**
 
@@ -589,6 +640,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "import-md.spec.ts"
 
+### pass/fail ; pass 2/2&nbsp;
+
 ### **Edge Cases and Suggestions**
 
 - **Edge/Negative:**
@@ -631,6 +684,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "mermaid.spec.ts"
 
+### pass/fail : pass 1/1&nbsp;
+
 ### **Edge Cases and Suggestions**
 
 - **Edge/Negative:**
@@ -666,6 +721,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 &nbsp;
 
 # Test file name: "path.spec.ts"
+
+### pass/fail : pass 1/1&nbsp;
 
 ### **Edge Cases and Suggestions**
 
@@ -710,6 +767,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 &nbsp;
 
 # Test file name: "paywall.spec.ts"
+
+### pass/fail: fail 2/2&nbsp;
 
 ### **Edge Cases and Suggestions**
 
@@ -761,6 +820,10 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "performance.spec.ts"
 
+### pass/fail: fail 1/3
+
+4 in skip&nbsp;
+
 ## Test Case Coverage Table
 
 | Test Name                              | Description/Steps                                                                 | Expected Result                   | Time Limit (ms) | Iterations |
@@ -783,7 +846,7 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "pr-to-doc.spec.ts"
 
-&nbsp;
+### pass/fail : fail 1/4&nbsp;
 
 ## Test Case Coverage Table
 
@@ -833,6 +896,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "snippet-studio.spec.ts"
 
+### pass/fail : fail 1/7&nbsp;
+
 ### Naming Improvements
 
 | Current Test Name                                    | Suggested Title (for better reporting)                  |
@@ -865,11 +930,13 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "status-tab.spec.ts"
 
+pass /fail : pass
+
 ## Test Case Coverage Table
 
-| Test Name                         | Steps                                                                                                                                 | Expected Result(s)                                                                           |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| status page shows an outdated doc | 1\. Go to repo docs page2. Click "Review outdated" tab3. Check outdated notification4. Open outdated doc5. Check autosyncable snippet | 1\. Outdated notification is visible2. Outdated doc in list3. Doc shows autosyncable snippet |
+| Test Name                         | Steps                                                                                                                                                 | Expected Result(s)                                                                                   |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| status page shows an outdated doc | 1\. Go to repo docs page<br>2. Click "Review outdated" tab<br>3. Check outdated notification<br>4. Open outdated doc<br>5. Check autosyncable snippet | 1\. Outdated notification is visible<br>2. Outdated doc in list<br>3. Doc shows autosyncable snippet |
 
 &nbsp;
 
@@ -880,6 +947,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 &nbsp;
 
 # Test file name: "tags.spec.ts"
+
+pass /fail : fail 1/3
 
 ### Test Case Coverage Table
 
@@ -915,6 +984,8 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "templates.spec.ts"
 
+pass /fail : pass 2/2
+
 ### Test Case Coverage Table
 
 | Test Name                                    | Steps & Coverage                                                                                                  | Main Assertions / Results                                                                                               |
@@ -945,6 +1016,10 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 &nbsp;
 
 # Test file name: "trial.spec.ts"
+
+### pass/fail : fail 1/1
+
+&nbsp;
 
 ### Test Case Coverage Table
 
@@ -979,7 +1054,9 @@ passed/ falls :&nbsp;&nbsp;&nbsp;
 
 # Test file name: "workspace.spec.ts"
 
-### **Test Case Coverage Table**
+#### pass/fail : fail 1/2
+
+#### **Test Case Coverage Table**
 
 | **Title**                              | **Preconditions**     | **Test Steps**                                                    | **Expected Result**                                         |
 | -------------------------------------- | --------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------- |
