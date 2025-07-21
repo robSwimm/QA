@@ -13,6 +13,30 @@ test&nbsp;
 
 tetst
 
+&nbsp;
+
+&nbsp;
+
+\`get
+
+&nbsp;
+
+<SwmSnippet path="/README.md" line="1">
+
+---
+
+Here we log and handle failures when calling `cloudRun`, ensuring any issues are caught and reported properly.
+
+```markdown
+# QA
+
+text
+```
+
+---
+
+</SwmSnippet>
+
 test test&nbsp;
 
 tetst
@@ -152,4 +176,4 @@ text
 
 </SwmSnippet>
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBUUElM0ElM0Fyb2JTd2ltbQ==" repo-name="QA"><sup>Powered by [Swimm](https://staging.swimm.cloud/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBUUElM0ElM0Fyb2JTd2ltbQ==" repo-name="QA"><sup>Powered by [Swimm](https://stag.swimm.cloud/)</sup></SwmMeta>
