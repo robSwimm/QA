@@ -29,6 +29,7 @@ title: 'feature''s map '
     2. Repo options&nbsp;
 
        1. Integrations & settings
+
           1. GitHub App
           2. Slack
           3. sharing&nbsp;
@@ -36,7 +37,9 @@ title: 'feature''s map '
           5. Image Storage
 
           &nbsp;
+
        2. Add/Remove favorites
+
        3. Open repo on Github
 
  4. Doc
@@ -50,8 +53,10 @@ title: 'feature''s map '
     1. Add Snippets
 
        1. Select snippets&nbsp;
-          1. repo librey  display&nbsp;
+          1. repo libery display&nbsp;
+
           2. Add option&nbsp;
+
              1. Add & Continue
              2. Add & close&nbsp;
              3. Clear&nbsp;
@@ -60,6 +65,9 @@ title: 'feature''s map '
        2. Display snippets that were selected by marking them with a green background&nbsp;
 
     2. Add AI comment (Generate description)&nbsp;
+
+       1. Dropdown options: better, longer, shorter,  Fix spelling & grammar
+       2. search box for the dropdown
 
     3. &nbsp;Snippets box
 
