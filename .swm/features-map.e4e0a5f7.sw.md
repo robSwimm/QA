@@ -1,6 +1,8 @@
 ---
 title: 'feature''s map '
 ---
+Web App
+
  1. Workspace&nbsp;
 
     1. Create workspace&nbsp;
@@ -20,7 +22,7 @@ title: 'feature''s map '
     4. AI & feature access
     5. Advanced
        1. Create branch&nbsp;
-    6. Demo repo should exit in each new workspace&nbsp;
+    6. Demo repo should exit in each new workspace (create tiket to delete it )&nbsp;
 
  3. Repo
 
@@ -75,29 +77,44 @@ title: 'feature''s map '
 
        2. Displays Up to date
 
- 6. Smart token
+ 6. Doc branches&nbsp;
 
- 7. Path
+    1. create branches&nbsp;
+    2. change between branches
+    3. delete branches
+    4. merge branches&nbsp;
 
- 8. Add image
+ 7. PR to DOC - priority critical&nbsp;
 
- 9. Add Block images
+ 8. bracnh to DOC
 
-10. Add doc
+ 9. &nbsp;
 
-11. Add playlist
+10. Smart token
 
-12. Add mention
+11. Path
 
-13. Add tables&nbsp;
+12. Add image
 
-14. Add Giphy
+13. Add Block images
 
-15. Add Diagram (mermaid)
+14. Add doc
 
-16. Add Youtube link
+15. Add playlist
 
-17. Add Styling
+16. Add mention
+
+17. Add tables&nbsp;
+
+18. Add Giphy
+
+19. Add Diagram (mermaid)
+
+20. Add hyper link&nbsp;
+
+21. Add Youtube link
+
+22. Add Styling
 
     1. h1
 
@@ -113,11 +130,11 @@ title: 'feature''s map '
 
     7. bullet list
 
-    8. orderd list
+    8. ordered list
 
-18. Verify Commit button displays '1' (this test may be part of each step)
+23. Verify Commit button displays '1' (this test may be part of each step)
 
-19. Add tag
+24. Add tag
 
     1. verify we see the tag
 
@@ -125,14 +142,41 @@ title: 'feature''s map '
 
     3. leave workspace → return to the workspace
 
-&nbsp;
+25. billing options&nbsp;
+
+    1. repos - how many repo connected to workspace&nbsp;
+    2. ai-text-auto-completion-cap (will be removed)&nbsp;
+       1. when adding ai description
+       2. &nbsp;&nbsp;when auto-completion text - (hard to reprodece)&nbsp;
+    3. Ask Swimm cap
+    4. Generative AI cap
+
+26. GITAPP - Priority critical
+
+## IDE -&nbsp;
+
+1. File to DOC- priority critical
+2. Drildown to DOC - priority critical
+3. Repo
+   1. repo witout workspace -&nbsp;
+      1. will display repo is without repo under the repo name&nbsp;&nbsp;
+      2. &nbsp;dropdown option  to add the repo to workspace&nbsp;
+   2. repo with workspace
+      1. will dispaly the workspace under the repo name&nbsp;
+4. Ask option&nbsp;
+   1. run search in the repo&nbsp;
+   2. ???
+5. Rules ?&nbsp;
+6. Search ?&nbsp;
+7. generate - priority critical
+8. &nbsp;
 
 &nbsp;
 
 &nbsp;
 
-&nbsp;
+## 
 
-&nbsp;
+1. &nbsp;
 
 <SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBUUElM0ElM0Fyb2JTd2ltbQ==" repo-name="QA"><sup>Powered by [Swimm](https://staging.swimm.cloud/)</sup></SwmMeta>
