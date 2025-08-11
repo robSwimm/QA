@@ -20,10 +20,9 @@ Full explanation:   <https://docs.swimm.io/on-prem-agent-installation-guide/?pla
 1. Open google cloud <https://console.cloud.google.com/>
    1. search for secret manger&nbsp;&nbsp;
    2. Click on  "Create secret"&nbsp;&nbsp;
-   3. Add the new name, making sure it matches the "V3 Cloud run container name" column exactly &nbsp;
+   3. Add the new name, making sure it matches the "V3 Cloud run container name" column exactly&nbsp;&nbsp;
 2. &nbsp;
-3. **Copy one of the existing configurations that is closest to the new environment, or use this example.**
-4. &nbsp;
+3. **Copy one of the existing configurations that is closest to the new environment, or use this tamplate.**
 
 ```yml
  # yaml-language-server: $schema=https://docs.swimm.io/schemas/onprem-agent-config.json
@@ -62,6 +61,31 @@ ai:
 
 &nbsp;&nbsp;&nbsp;
 
+|                                                       |   |   |
+| ----------------------------------------------------- | - | - |
+| ![](/.swm/images/download-2025-7-4-11-53-28-409.jpeg) | / |   |
+| /                                                     |   |   |
+
+- 456
+- d64
+
 &nbsp;
+
+<SwmSnippet path="/README.md" line="1">
+
+---
+
+Here we check the `result` status and the presence of `apiResponse.text` to determine if the cloud run call was successful, logging details when it is not.
+
+```markdown
+# QA
+
+text
+
+```
+
+---
+
+</SwmSnippet>
 
 <SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBUUElM0ElM0Fyb2JTd2ltbQ==" repo-name="QA"><sup>Powered by [Swimm](https://staging.swimm.cloud/)</sup></SwmMeta>
