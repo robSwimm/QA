@@ -21,7 +21,7 @@ const config = {
 
         browserName : 'webkit',
         headless : true,
-        screenshot : 'off',
+        screenshot : 'on',
         trace : 'on',//off,on 
         ...devices['iPhone 11'],    
       }
