@@ -1,0 +1,35 @@
+{
+    "rules": {
+        "a7f5ad0e-bd30-464d-acb1-90783400c44f": {
+            "name": "test",
+            "rule": {
+                "type": "regex",
+                "regex": "test",
+                "ignoreCase": false
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "5gbtcc14"
+                }
+            }
+        },
+        "3ce18b9b-745b-4848-b88d-774bee79b5fc": {
+            "name": "tesdt rule",
+            "rule": {
+                "type": "regex",
+                "regex": "validLogin",
+                "ignoreCase": false
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "p08r9",
+                    "message": "show me the money "
+                }
+            }
+        }
+    },
+    "view_order": [
+        "a7f5ad0e-bd30-464d-acb1-90783400c44f",
+        "3ce18b9b-745b-4848-b88d-774bee79b5fc"
+    ]
+}
