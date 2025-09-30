@@ -1,7 +1,7 @@
 ---
-title: 'Cloud enrprice '
+title: Enterprise Cloud
 ---
-Screens/ button to remove from cloud
+### Screens/ button to remove from **Enterprise Cloud**
 
 1. Remove option 'Leave workspace' (Admin role)&nbsp;
 
