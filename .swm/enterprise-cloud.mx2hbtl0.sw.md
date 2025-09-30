@@ -21,7 +21,7 @@ title: Enterprise Cloud
 
       <p align="center"><img src="/.swm/images/Screenshot%202025-09-30%20at%2018.25.33-2025-8-30-15-26-15-27.png"></p>
 
-3. &nbsp;
+3. Make Members screen read only (Admin role)  <https://app.clickup.com/t/3723701/SWM-38310>
 
 4. Remove user settings (Admin and member roles)&nbsp;
 
@@ -31,7 +31,7 @@ title: Enterprise Cloud
 
       &nbsp;
 
-5. Member Role&nbsp;
+5. Member Role  <https://app.clickup.com/t/3723701/SWM-38305>
 
    Workspace Dropdown Behavior&nbsp;
 
