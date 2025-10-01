@@ -9,7 +9,7 @@ title: Enterprise Cloud
 
       <p align="center"><img src="/.swm/images/Screenshot%202025-09-30%20at%2018.14.36-2025-8-30-15-17-57-107.png" style="width: 36%"></p>
 
-2. Welcome screen&nbsp;
+2. Welcome screen  <https://app.clickup.com/t/3723701/SWM-38313>
 
    1. Remove buttons 'add users' , users icon (top left) - 5 places to remove&nbsp;&nbsp;
 
