@@ -33,20 +33,16 @@ title: Enterprise Cloud
 
  5. Member Role  <https://app.clickup.com/t/3723701/SWM-38305>
 
-    Workspace Dropdown Behavior&nbsp;
+    Workspace Dropdown&nbsp;&nbsp;
 
     1. **Expected Behavior:**
-       1. **Disabled State**
+       1. **Relevant Workspaces Only**
 
-          - For users with a Member role, the dropdown option should **not** be enabled if there are no additional relevant workspaces available for that user.
+          - If a member exists in other workspaces, the dropdown will display **only those relevant workspaces** where the user has membership.
 
-       2. **Relevant Workspaces Only**
+          - Button New workspace should be removed&nbsp;
 
-          - If a member exists in other workspaces, the dropdown should display **only those relevant workspaces** where the user has membership.
-
-          - &nbsp;
-
-            <p align="center"><img src="/.swm/images/Screenshot%202025-09-30%20at%2018.29.35-2025-8-30-15-35-52-309.png" style="width: 73%"></p>
+            <p align="center"><img src="/.swm/images/Screenshot%202025-10-01%20at%2010.23.40-2025-9-1-7-24-57-652.png" style="width: 149%"></p>
 
  6. Improve group tab&nbsp;&nbsp;
 
